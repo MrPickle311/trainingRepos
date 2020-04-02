@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Exercise3</class>
+ <widget class="QWidget" name="Exercise3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1092</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1092</width>
+    <height>632</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1092</width>
+    <height>632</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Exercise3</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="chartLayout"/>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>540</y>
+     <width>1091</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="4">
+     <widget class="QTextEdit" name="toTextEdit">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="searchButton">
+      <property name="text">
+       <string>Szukaj rozwiązania</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QTextBrowser" name="solutionTextBrowser">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Dokąd szukać rozwiązania ?:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextEdit" name="fromTextEdit">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string> Odkąd szukać rozwiązania ? :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Rozwiązanie :</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

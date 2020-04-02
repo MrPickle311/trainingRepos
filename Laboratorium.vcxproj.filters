@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Biblioteki-laboratorium">
+      <UniqueIdentifier>{7ddff17c-46c2-4481-8e63-79505057332c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkFiles-laboratory">
+      <UniqueIdentifier>{8711aa9d-f5fe-4c0d-aa59-4300d72df0c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laboratorium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kwad.cpp">
+      <Filter>Biblioteki-laboratorium</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise2WorkFile.cpp">
+      <Filter>WorkFiles-laboratory</Filter>
+    </ClCompile>
+    <ClCompile Include="Chart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise3WorkFile.cpp">
+      <Filter>WorkFiles-laboratory</Filter>
+    </ClCompile>
+    <ClCompile Include="nonlin.cpp">
+      <Filter>Biblioteki-laboratorium</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Laboratorium.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Exercise2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Chart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DebugDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Exercise3.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Laboratorium.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Exercise2.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Exercise3.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Laboratorium.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kwad.h">
+      <Filter>Biblioteki-laboratorium</Filter>
+    </ClInclude>
+    <ClInclude Include="Exercise2WorkFile.h">
+      <Filter>WorkFiles-laboratory</Filter>
+    </ClInclude>
+    <ClInclude Include="Exercise3WorkFile.h">
+      <Filter>WorkFiles-laboratory</Filter>
+    </ClInclude>
+    <ClInclude Include="nonlin.h">
+      <Filter>Biblioteki-laboratorium</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
